@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script src="https://kit.fontawesome.com/a1df11952d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+ <div class="container">
+    <div class="row">
+        <img src="assets/shoe.jpg" alt="Nike_Red">
+    </div>
+    <div class="content">
+        <h3>Nike Mens Air Zoom Vomero 16 Running Shoe</h3>
+        <p>Designed for comfortable wear for sports and street style, NIKE is always fun to wear. Upgrade in style with a wide range from the world’s leading and much-loved sports brand, NIKE.</p>
+    </div>
+
+    <div class="cart">
+        <h4>Quantity</h4>
+    <div class="counter">
+        <div class="increment" id="inc" onclick="incrementVal()"><i class="fa-solid fa-plus"></i></div>
+        <div class="value" id="count">0</div>
+        <div class="decrement"id="dec" onclick="decrementVal()"><i class="fa-solid fa-minus"></i></div>
+    </div>
+
+    <button id="reset" onclick="resetVal()">Reset</button>
+</div>
+ </div>
+
+<script src="cart.js"></script>
+</body>
+</html>
